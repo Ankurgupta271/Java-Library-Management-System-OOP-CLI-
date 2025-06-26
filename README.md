@@ -35,6 +35,6 @@ This is a simple **Command-Line Library Management System** built using Java. It
 ---
 
 1. Compile the program:
+2. javac LibrarySystem.java
+3. java LibrarySystem
 
-javac LibrarySystem.java
-java LibrarySystem
