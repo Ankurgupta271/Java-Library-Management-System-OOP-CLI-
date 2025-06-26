@@ -83,8 +83,7 @@ class User extends LibraryMember {
     public String getName() {
         return name;
     }
-
-    @Override
+    
     public void displayInfo() {
         System.out.println("User ID: " + id + ", Name: " + name);
     }
@@ -175,7 +174,7 @@ public class LibrarySystem {
         //Only one user can be created for now
         User user = new User(userId, name);
 
-        //For multiple users 
+        //For multiple users use :
         // Map<Integer, User> users = new HashMap<>();
         // users.put(userId, new User(userId, name));
 
